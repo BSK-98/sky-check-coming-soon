@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SKY CHECK</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#334155',
+                            default: '#075985',
+                            primary: '#0EA5E9',
+                            secondary: '#9333EA'
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body class="overflow-hidden overflow-y-auto">
+        <header class="fixed top-0 left-0 right-0 h-[12%] z-10">
+            <div class="h-full flex justify-center items-center">
+                <h1 class="font-bold text-default">SKY CHECK</h1>
+            </div>
+        </header>
+        <div id="hero" class="h-screen w-screen bg-clifford relative">
+            <video src="./assets/video/bg-vid.mp4" loop autoplay class="
+                h-full w-full object-cover
+            "></video>
+            <main class="hero-word absolute top-0 left-0 right-0 bottom-0 bg-clifford/40 z-9">
+                <div class="min-h-[10px] mt-[95vh]">
+                    <div class="first-child p-3">
+                        <div class="w-[80%] mx-auto rounded-md overflow-hidden min-h-[450px] grid grid-cols-2">
+                            <div class="card h-full overflow-hidden">
+                                <img src="./assets/images/Ai1.png" class="h-full w-full" alt="">
+                            </div>
+                            <div class="card h-full bg-clifford">
+                                <div class="flex justify-center h-full items-center">
+                                    <div class="h-[70%] w-[90%]">
+                                        <h2 class="text-center text-slate-300 font-bold text-[50px]">Attendance</h2>
+                                        <p class="text-center py-6 text-slate-300">
+                                            Introducing our cutting-edge  Facial Recognition Attendance System! 
+                                            Say goodbye to manual attendance tracking. Our system offers lightning-fast, 
+                                            contactless check-ins, reducing administrative burdens. With advanced facial 
+                                            recognition technology, it ensures accuracy and security, making it the smart 
+                                            choice for modern organizations seeking streamlined attendance management.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-child p-3">
+                        <div class="w-[80%] mx-auto rounded-md overflow-hidden min-h-[450px] grid grid-cols-2">
+                            <div class="card h-full bg-clifford">
+                                <div class="flex justify-center h-full items-center">
+                                    <div class="h-[70%] w-[90%]">
+                                        <h2 class="text-center text-slate-300 font-bold text-[50px]">Security</h2>
+                                        <p class="text-center py-6 text-slate-300">
+                                            Elevate your security with our Facial Recognition Security System! Experience 
+                                            foolproof access control and instant identification. Our advanced technology 
+                                            provides the highest level of protection, allowing only authorized individuals. 
+                                            Trust in the future of security, trust in Sky Check.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card h-full overflow-hidden">
+                                <img src="./assets/images/lock.jpg" class="h-full w-full" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-[400px] bg-default/40 grid grid-cols-2">
+                    <div class="h-[400px]">
+                        <img src="./assets/images/calendar.webp" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <div class="h-full">
+                        <div class="flex justify-center h-full items-center">
+                            <div class="h-[70%] w-[90%]">
+                                <h2 class="text-center text-slate-700 font-bold text-[50px]">Track Attendance In Real-Time</h2>
+                                <p class="text-center py-6 text-slate-700">
+                                    Elevate your organization's attendance tracking with our Real-Time Facial Recognition System. 
+                                    Experience seamless and instant attendance recording, eliminating the need for manual processes. 
+                                    Our advanced facial recognition technology guarantees accuracy and security, ensuring only authorized 
+                                    individuals gain access. Save time, enhance security, and streamline operations with a system that's 
+                                    at the forefront of modern attendance management
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
